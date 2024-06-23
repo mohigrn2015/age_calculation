@@ -58,7 +58,6 @@ namespace TM_Console.TM_Base
             int months = today.Month - dateOfBirth.Month;
             int days = today.Day - dateOfBirth.Day;
 
-            // Adjust the year and month difference if needed
             if (days < 0)
             {
                 months--;
